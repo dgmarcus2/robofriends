@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import 'tachhyons';
+import 'tachyons'; 
+import CardList from './CardList';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<CardList />, document.getElementById('root'));
 registerServiceWorker();
